@@ -8,7 +8,6 @@ class MetricsCalculatorTest < Minitest::Test
   end
 
   def test_it_loads_sections
-    skip
     calc = MetricsCalculator.new
     sec_1 = Section.new("Biology 1")
     sec_2 = Section.new("Biology 2")
