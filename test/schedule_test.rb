@@ -8,7 +8,6 @@ class ScheduleTest < Minitest::Test
   end
 
   def test_it_has_sections
-    skip
     schedule = Schedule.new
     sec_1 = Section.new("Biology 1")
     sec_2 = Section.new("Biology 2")
